@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(#383838,#686868, #686868,#383838)
+}
+.container{
+    margin: 120px auto;
+    max-width: 450px;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 50%;
+    background:black;
+    border-radius: 10px;
+    min-height: 200px;
+    padding: 25px;
+}
+.container header{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff0080;
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #C71585;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 22px;
+    background: #FF69B4;
+    border: none;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+ #tasks{
+    background-color: black;
+    margin-top: 10px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid black;
+    cursor: pointer;
+     flex-direction: column;
+}
+.task{
+    background-color: #ccc;
+    height: 50px;
+    margin: 5px;
+    padding: 5px 10px; 
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid	#bf00ff;
+    cursor: pointer;
+}
+.task span{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background: #FF69B4;
+    color: black;
+    height: 100%;
+    width: 40px;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+} 
+.task button img{
+    width:20px;
+   
+}
