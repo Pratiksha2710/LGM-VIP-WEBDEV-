@@ -1,0 +1,80 @@
+body{
+  background-color: #C6B4CE;
+}
+.navbar{
+  background-color:#A73489;
+}
+.nav-items{
+  display: flex;
+}
+button{
+  margin-left:850px;
+  margin-top:20px;
+  height: 45px;
+  width: 120px;
+  border-radius: 8px;
+  background-color:#F6C6EA;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif
+}
+button:hover{
+  background-color: white;
+  color: black;
+}
+.avatar{
+  border-radius: 50%;
+}
+#main{
+  padding: 25px 50px;
+  margin-left:auto;
+  margin-right: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profile{
+  box-shadow: 0 2px 4px 0 rgba(127, 120, 196, 0.2);
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+  padding: 25px;
+  border-radius: 18px;
+  background-color: #9B72AA;
+}
+.profile:hover{
+  transition: 200ms;
+  box-shadow: 8px 8px 8px 8px rgb(46, 46, 46);
+  transform: translateY(-3px);
+}
+.email{
+  color:black;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  padding-top: 20px;
+  font-size: 25px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+.loader{
+  margin-left: auto;
+  margin-right: auto;
+}
+.first-h2{
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  margin-left: 30px;
+}
+.footer{
+  text-align: center;
+  font-size: 25px;
+}
